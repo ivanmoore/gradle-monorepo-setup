@@ -1,8 +1,6 @@
 ////////////////////////////////////////////////////////////////
 //// gradle/plugins/no-op/src/main/kotlin/teashop.no-op.gradle.kts ////
 ////////////////////////////////////////////////////////////////
-tasks.register("sayHello") {
-    doFirst {
-        logger.lifecycle("Hello!")
-    }
-}
+import com.teashop.SayHelloTask
+
+tasks.register<SayHelloTask>("sayHello")
