@@ -2,3 +2,4 @@
 //// plugins/settings.gradle.kts ////
 /////////////////////////////////////
 rootProject.name = "plugins"
+include(":no-op")

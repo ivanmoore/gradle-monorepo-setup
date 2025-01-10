@@ -1,0 +1,10 @@
+////////////////////////////////////////
+//// gradle/plugins/no-op/build.gradle.kts ////
+////////////////////////////////////////
+plugins {
+    `kotlin-dsl`
+}
+
+repositories {
+    mavenCentral()
+}
